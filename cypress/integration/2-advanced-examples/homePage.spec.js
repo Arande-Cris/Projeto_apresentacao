@@ -22,8 +22,8 @@ describe('Teste Site WorX - Grupo 4', () => {
         cy.get('button[id^="onetrust-accept"]').click()
     })
 
-    // it('Simule Seu Investimento - HomePage', ()=>{
-    //     cy.get('input[class^="td-simulation__input "]').type("10000")
-    // })
+    it('Simule Seu Investimento - HomePage', ()=>{
+        cy.get('input[class^="td-simulation__input "]').type("10000")
+    })
     
 })
