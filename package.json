@@ -1,8 +1,17 @@
 {
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:ci": "cypress run",
+    "cypress:smoke-test": "cypress run --spec cypress/integration/smoke-test.spec.js",
+    "test": "cypress run --reporter nyan"
+  },
+
   "dependencies": {
     "cypress": "^9.5.0"
   },
+
   "devDependencies": {
-    "@faker-js/faker": "^6.0.0-alpha.7"
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
