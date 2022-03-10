@@ -1,4 +1,4 @@
-# Projeto Para Apresentação
+# Projeto De Exibição
   - O Objetivo desse projeto é mostrar meu nível em automação de teste de forma técnica e clara.
   - Link Youtube: 
 
@@ -21,14 +21,12 @@
 - https://www.tesourodireto.com.br/
 
 ## Casos de Teste
-- Simule seu Investimento - Home Page 
 - Simule Mais Opções – Home Page + redirecionamento 
+- Ver Todos os Títulos – Home Page + redirecionamento
 - Escolha seu Objetivo – Home Page + redirecionamento
 - Descubra o título ideal – Home Page + redirecionamento
-- Opções de Título – Home Page + redirecionamento
-- Ver Todos os Títulos – Home Page + redirecionamento
 - Comece a Investir – Home Page + redirecionamento
 
-## Observação:
+## Instruções e Obs.:
 
 ### ⚔️ Arandê Cristina da Silva Souza
