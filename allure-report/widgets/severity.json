@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2a2d2691133e06b4",
+  "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
+  "time" : {
+    "start" : 1647278227679,
+    "stop" : 1647278244242,
+    "duration" : 16563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9290a70cd8c9df6a",
+  "name" : "Todos os Titulos",
+  "time" : {
+    "start" : 1647278244438,
+    "stop" : 1647278257555,
+    "duration" : 13117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

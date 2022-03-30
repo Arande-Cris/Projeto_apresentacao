@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Teste Site WorX - Grupo 4",
+    "children" : [ {
+      "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
+      "uid" : "2a2d2691133e06b4",
+      "parentUid" : "242837f0b9d9f3425b886971c40a2f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647278227679,
+        "stop" : 1647278244242,
+        "duration" : 16563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Todos os Titulos",
+      "uid" : "9290a70cd8c9df6a",
+      "parentUid" : "242837f0b9d9f3425b886971c40a2f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647278244438,
+        "stop" : 1647278257555,
+        "duration" : 13117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "242837f0b9d9f3425b886971c40a2f5b"
+  } ]
+}

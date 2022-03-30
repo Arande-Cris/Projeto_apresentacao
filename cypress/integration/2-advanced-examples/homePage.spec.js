@@ -27,7 +27,7 @@ describe('Teste Site WorX - Grupo 4', () => {
     beforeEach(() => {
         cy.goToPage();
         //checkPoint 
-        
+
     });
 
     //Hom e+ direcionamento
@@ -37,26 +37,8 @@ describe('Teste Site WorX - Grupo 4', () => {
     })
 
     it('Todos os Titulos', () => {
-        cy.get('a[class="btn btn--white"][href="/titulos/precos-e-taxas.htm"]').click({ force: true })
-        cy.get('a[id="161"]').click({ force: true })
-        cy.get('a[href="javascript:abreTela2(2)"]').click({ force: true })
-        cy.contains('a[class="btn btn--primary td-btn-avancar-resgate"]')
-            .should('not.exist')
-        cy.get('input[name="valor-para-resgatar"]').type('10000000', { force: true })
-        cy.get('a[class="btn btn--primary td-btn-avancar-resgate"]')
-            .should('be.visible')
-            .and('have.text', 'Avançar')
-            .click({ force: true })
-        cy.get('a[href^="javascript:$"]').click({ force: true })
-        cy.get('a[class="btn btn--primary btn-simu--investir"]')
-            .should('be.visible')
-            .and('have.text', 'Investir')
-        cy.get('a[class^="btn btn--primary td-precosTaxas__modal-email "').click({ force: true })
-        cy.get('input[type="email"]').type(faker.internet.email())
-        cy.get('input[id="check-box"]').check()
-        cy.get('a[class="btn btn--primary td-btn-enviar-email"]').click({ force: true })
-        cy.get('span[class="td-email-enviado"]').should('contain', 'E-mail enviado')    
-    })    
+        auth.todosTitulos()
+    })
 
 
 

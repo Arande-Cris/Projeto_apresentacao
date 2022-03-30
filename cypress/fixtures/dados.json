@@ -1,6 +1,9 @@
+
 {
   "aportes": {
     "aporteInicial": "1000000",
-    "mensal": "50000"    
+    "mensal": "50000", 
+    "valorResgate": "10000000",
+    "email": "faker.internet.email()"
   }
 }

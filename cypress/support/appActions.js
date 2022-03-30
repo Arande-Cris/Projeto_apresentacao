@@ -28,10 +28,11 @@ class authActions {
         cy.get('a[data-bi-label="enviar-email"]').click({ force: true })
         cy.get('input[type="email"]').type(faker.internet.email())
         cy.get('input[id="check-box"]').check()
-        cy.get('a[class="btn btn--primary td-btn-enviar-email"]').click({ force: true })
+        cy.contains('button', 'Enviar').click({ force: true })
         cy.get('span[class="tdsimu-email-enviado"]').should('contain', 'E-mail enviado')
     }
- 
+
+   
     todosTitulos(){
         let dados = {valorResgate: "10000000", email: faker.internet.email()}
         cy.get('a[class="btn btn--white"][href="/titulos/precos-e-taxas.htm"]').click({ force: true })
@@ -48,10 +49,10 @@ class authActions {
         cy.get('a[class="btn btn--primary btn-simu--investir"]')
             .should('be.visible')
             .and('have.text', 'Investir')
-        cy.get('a[class^="btn btn--primary td-precosTaxas__modal-email "').click({ force: true })
+        cy.contains('button', 'Enviar por e-mail').click({ force: true })
         cy.get('input[type="email"]').type(dados.email)
         cy.get('input[id="check-box"]').check()
-        cy.get('a[class="btn btn--primary td-btn-enviar-email"]').click({ force: true })
+        cy.get('button[class^="btn btn--primary td-btn-enviar-email"]').click({ force: true })
         cy.get('span[class="td-email-enviado"]').should('contain', 'E-mail enviado') 
     }
 }
