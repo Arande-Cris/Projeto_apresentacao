@@ -1,6 +1,9 @@
 # Projeto De Exibição
   - O Objetivo desse projeto é mostrar meu nível em automação de teste de forma técnica e clara.
   - Link Youtube: 
+## Site Escolhido:
+### Tesouro Direto
+- https://www.tesourodireto.com.br/
 
 ## Técnicas Utilizadas 
  - Caderno de Teste
@@ -16,9 +19,6 @@
    - logica de programação
    - Apenas cenários 100% validados
    - Utilização da biblioteca Faker, para gerar massa de teste 
-   
-## Site Escolhido:
-- https://www.tesourodireto.com.br/
 
 ## Casos de Teste
 - Simule Mais Opções – Home Page + redirecionamento 
