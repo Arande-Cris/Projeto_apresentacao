@@ -1,20 +1,30 @@
 [ {
-  "uid" : "9290a70cd8c9df6a",
-  "name" : "Todos os Titulos",
+  "uid" : "45a5e0cca4c3e46",
+  "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
   "time" : {
-    "start" : 1647278244438,
-    "stop" : 1647278257555,
-    "duration" : 13117
+    "start" : 1648782499861,
+    "stop" : 1648782510972,
+    "duration" : 11111
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2a2d2691133e06b4",
-  "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
+  "uid" : "4e0a52a232994a4",
+  "name" : "Todos os Titulos",
   "time" : {
-    "start" : 1647278227679,
-    "stop" : 1647278244242,
-    "duration" : 16563
+    "start" : 1648782511006,
+    "stop" : 1648782518930,
+    "duration" : 7924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3040227995335c8a",
+  "name" : "Veja Todos os Titulos: Validando itens em tabela",
+  "time" : {
+    "start" : 1648782518961,
+    "stop" : 1648782522329,
+    "duration" : 3368
   },
   "status" : "passed",
   "severity" : "normal"

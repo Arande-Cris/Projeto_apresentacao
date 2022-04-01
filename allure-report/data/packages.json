@@ -1,15 +1,14 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
-    "uid" : "2a2d2691133e06b4",
+    "uid" : "45a5e0cca4c3e46",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1647278227679,
-      "stop" : 1647278244242,
-      "duration" : 16563
+      "start" : 1648782499861,
+      "stop" : 1648782510972,
+      "duration" : 11111
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +19,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Todos os Titulos",
-    "uid" : "9290a70cd8c9df6a",
+    "uid" : "4e0a52a232994a4",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1647278244438,
-      "stop" : 1647278257555,
-      "duration" : 13117
+      "start" : 1648782511006,
+      "stop" : 1648782518930,
+      "duration" : 7924
     },
     "flaky" : false,
     "newFailed" : false,
@@ -35,5 +34,23 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ]
+  }, {
+    "name" : "Veja Todos os Titulos: Validando itens em tabela",
+    "uid" : "3040227995335c8a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648782518961,
+      "stop" : 1648782522329,
+      "duration" : 3368
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
 }

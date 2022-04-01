@@ -8,3 +8,9 @@ Cypress.Commands.add('goToPage', () => {
     cy.get('div[id="conteudo-principal"]').should('be.visible')
    
 })
+
+Cypress.Commands.add('nameTitulosTable',(nameTitulos)=>{
+    cy.get('a[class="btn btn--white"][href="/titulos/precos-e-taxas.htm"]').click({force: true})
+    cy.get('table[class^="td-invest-table"]').should('be.visible')
+    cy.get('table').contains('td', nameTitulos).should('be.visible')
+})
