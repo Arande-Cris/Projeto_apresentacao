@@ -1,30 +1,90 @@
 [ {
-  "uid" : "45a5e0cca4c3e46",
-  "name" : "Simule Investimento estudantes - Quanto quero investir hoje",
+  "uid" : "b6e2d8e66f404acb",
+  "name" : "Comece a investir: Video 1",
   "time" : {
-    "start" : 1648782499861,
-    "stop" : 1648782510972,
-    "duration" : 11111
+    "start" : 1649213283474,
+    "stop" : 1649213288363,
+    "duration" : 4889
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3040227995335c8a",
+  "uid" : "f2bb615442ee35e8",
+  "name" : "Descubra o titulo ideal e simule investimento - Estudantes",
+  "time" : {
+    "start" : 1649213237737,
+    "stop" : 1649213255217,
+    "duration" : 17480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9573f9edfeb48ab7",
+  "name" : "Validar Video 2",
+  "time" : {
+    "start" : 1649213298459,
+    "stop" : 1649213303933,
+    "duration" : 5474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ccd0f51f132bcdb",
+  "name" : "Comece a investir: Video 2",
+  "time" : {
+    "start" : 1649213293924,
+    "stop" : 1649213298397,
+    "duration" : 4473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "254cc61c6873dd0e",
+  "name" : "Validar Video 3",
+  "time" : {
+    "start" : 1649213306911,
+    "stop" : 1649213313861,
+    "duration" : 6950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9552f191f6844d3d",
   "name" : "Veja Todos os Titulos: Validando itens em tabela",
   "time" : {
-    "start" : 1648782518961,
-    "stop" : 1648782522329,
-    "duration" : 3368
+    "start" : 1649213255316,
+    "stop" : 1649213271743,
+    "duration" : 16427
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e0a52a232994a4",
-  "name" : "Todos os Titulos",
+  "uid" : "d60984432e8dc911",
+  "name" : "Comece a investir: Video 3",
   "time" : {
-    "start" : 1648782511006,
-    "stop" : 1648782518930,
-    "duration" : 7924
+    "start" : 1649213304026,
+    "stop" : 1649213306830,
+    "duration" : 2804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7cf11851ee8445a",
+  "name" : "Todos os Titulos: Tesouro Prfixado 2025",
+  "time" : {
+    "start" : 1649213271859,
+    "stop" : 1649213283425,
+    "duration" : 11566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e81aa83b7c21f2",
+  "name" : "Validar Video 1",
+  "time" : {
+    "start" : 1649213288419,
+    "stop" : 1649213293843,
+    "duration" : 5424
   },
   "status" : "passed",
   "severity" : "normal"

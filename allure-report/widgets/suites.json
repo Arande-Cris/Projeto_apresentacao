@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "242837f0b9d9f3425b886971c40a2f5b",
-    "name" : "Teste Site WorX - Grupo 4",
+    "uid" : "d80e893c8ef21acc883be1f9617e6991",
+    "name" : "Testes Site Tesouro Direto",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 3
+      "total" : 9
     }
   } ]
 }

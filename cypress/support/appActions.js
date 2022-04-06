@@ -9,6 +9,13 @@ class authActions {
         cy.get('a[id="start-simulation-button"]').click({ force: true })
     }
 
+    validTitle(){
+        cy.get('a[class="btn btn--primary"][href="/como-investir.htm"]').click({ force: true })
+        cy.contains('h2', 'COMO INVESTIR').should('be.visible')
+        cy.contains('h2', 'Aprendendo a Investir').scrollIntoView()
+            .should('be.visible')
+    }
+
     invetirestudos(){
         cy.get('a[data-objetivo="ES"]').click({ force: true })
         cy.get('div[class="tdsimu-mensagem-user"]').should('contain', 'Estudos')

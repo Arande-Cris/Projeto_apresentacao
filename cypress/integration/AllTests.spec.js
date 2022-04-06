@@ -3,7 +3,7 @@ import auth from "../support/appActions"
 import faker from "@faker-js/faker";
 faker.locale = 'pt_BR';
 
-describe('Teste Site WorX - Grupo 4', () => {
+describe('Testes Site Tesouro Direto', () => {
     /*
      * O Objetivo deste projeto é utilizar o máximo de conhecimento técnico possivél.
      * Apenas cenários 100% validados, com checkpoints, aplicando a biblioteca Faker, logica de programação, Fixtures, Factories, Commands e appActions. 
@@ -24,26 +24,60 @@ describe('Teste Site WorX - Grupo 4', () => {
      * 
      */
 
-   beforeEach(() => {
+    beforeEach(() => {
         cy.goToPage();
 
     });
 
-    //Hom e+ direcionamento
-    it('Simule Investimento estudantes - Quanto quero investir hoje', () => {
+    //Home+ direcionamento
+    it('Descubra o titulo ideal e simule investimento - Estudantes', () => {
         auth.maisOpcoes()
         auth.invetirestudos()
     })
 
-    it('Todos os Titulos', () => {
+    //ADICIONAR FIXTURES COM ARRAY E COMANDO COMMANDS => NAMETITULOSTABLE <= JA CRIADO!
+    it('Veja Todos os Titulos: Validando itens em tabela', () => {
+        auth.titulosEmTabela()
+    })
+
+    //Home+ direcionamento
+    it('Todos os Titulos: Tesouro Prfixado 2025', () => {
         auth.todosTitulos()
     })
 
-    //ADICIONAR FIXTURES COM ARRAY E COMANDO COMMANDS => NAMETITULOSTABLE <= JA CRIADO!
-    it('Veja Todos os Titulos: Validando itens em tabela', () => {
-
-        auth.titulosEmTabela()
+    //MELHORAR: AUMENTAR COMPLEXIDADE E DIMINUIR A QUANTIDADE DE LINHAS DE CÓDIGO
+    // De 87 pra 78 linhas, mas ainda tem que melhorar
+    it('Comece a investir: Video 1', function () {
+        cy.aprendaAInvestir('Conceitos básicos sobre impostos e taxas')
     })
+
+    it('Validar Video 1', function () {
+        auth.validTitle()
+        cy.contains('span', this.tituloV).click({ force: true })
+        cy.get('p[class="td-internal-heading__destaque---video__content__title"]').invoke("text").should('contain', this.tituloV)
+    })
+
+
+    it('Comece a investir: Video 2', function () {
+        cy.aprendaAInvestir('Conceitos básicos para investir')
+    })
+
+    it('Validar Video 2', function () {
+        auth.validTitle()
+        cy.contains('span', this.tituloV).click({ force: true })
+        cy.get('p[class="td-internal-heading__destaque---video__content__title"]').invoke("text").should('contain', this.tituloV)
+    })
+
+    it('Comece a investir: Video 3', function () {
+        cy.aprendaAInvestir('Como funcionam os títulos públicos prefixados')
+    })
+
+    it('Validar Video 3', function () {
+        auth.validTitle()
+        cy.contains('span', this.tituloV).click({ force: true })
+        cy.get('p[class="td-internal-heading__destaque---video__content__title"]').invoke("text").should('contain', this.tituloV)
+    })
+
 
 
 })
