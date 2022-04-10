@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import tableFactoty from "../../Factory/tableFactoty";
 import auth from "../support/appActions"
 import faker from "@faker-js/faker";
 faker.locale = 'pt_BR';
@@ -35,13 +36,26 @@ describe('Testes Site Tesouro Direto', () => {
         auth.invetirestudos()
     })
 
-    //ADICIONAR FIXTURES COM ARRAY E COMANDO COMMANDS => NAMETITULOSTABLE <= JA CRIADO!
-    it('Veja Todos os Titulos: Validando itens em tabela', () => {
-        auth.titulosEmTabela()
+    //ADICIONAR Factory <= JA CRIADO!
+    it('Validar Titulos em Tabela: Tesouro Prefixado 2025', () => {
+        cy.tabelaTitulos('Tesouro Prefixado 2025')
     })
 
+    it('Validar Titulos em Tabela: Tesouro Prefixado 2029', () => {
+        cy.tabelaTitulos('Tesouro Prefixado 2029')
+    })
+
+    it('Validar Titulos em Tabela: Tesouro Selic 2027', () => {
+        cy.tabelaTitulos('Tesouro Selic 2027')
+    })
+
+    it('Validar Titulos em Tabela: Tesouro IPCA+ 2045', () => {
+        cy.tabelaTitulos('Tesouro IPCA+ 2045')
+    })
+
+
     //Home+ direcionamento
-    it('Todos os Titulos: Tesouro Prfixado 2025', () => {
+    it('Todos os Titulos: Tesouro Prefixado 2025', () => {
         auth.todosTitulos()
     })
 

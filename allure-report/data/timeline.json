@@ -1,31 +1,15 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
-    "name" : "Comece a investir: Video 2",
-    "uid" : "1ccd0f51f132bcdb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649213293924,
-      "stop" : 1649213298397,
-      "duration" : 4473
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "Comece a investir: Video 3",
-    "uid" : "d60984432e8dc911",
+    "uid" : "da224f9d8d2064d1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213304026,
-      "stop" : 1649213306830,
-      "duration" : 2804
+      "start" : 1649556887575,
+      "stop" : 1649556891398,
+      "duration" : 3823
     },
     "flaky" : false,
     "newFailed" : false,
@@ -35,14 +19,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Descubra o titulo ideal e simule investimento - Estudantes",
-    "uid" : "f2bb615442ee35e8",
+    "name" : "Comece a investir: Video 2",
+    "uid" : "469242e03375e615",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213237737,
-      "stop" : 1649213255217,
-      "duration" : 17480
+      "start" : 1649556875538,
+      "stop" : 1649556880748,
+      "duration" : 5210
     },
     "flaky" : false,
     "newFailed" : false,
@@ -52,48 +36,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Comece a investir: Video 1",
-    "uid" : "b6e2d8e66f404acb",
+    "name" : "Validar Titulos em Tabela: Tesouro Prefixado 2025",
+    "uid" : "4cfcdc60593e2760",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213283474,
-      "stop" : 1649213288363,
-      "duration" : 4889
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Validar Video 3",
-    "uid" : "254cc61c6873dd0e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649213306911,
-      "stop" : 1649213313861,
-      "duration" : 6950
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Todos os Titulos: Tesouro Prfixado 2025",
-    "uid" : "e7cf11851ee8445a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649213271859,
-      "stop" : 1649213283425,
-      "duration" : 11566
+      "start" : 1649556833727,
+      "stop" : 1649556839041,
+      "duration" : 5314
     },
     "flaky" : false,
     "newFailed" : false,
@@ -104,13 +54,115 @@
     "parameters" : [ ]
   }, {
     "name" : "Validar Video 1",
-    "uid" : "64e81aa83b7c21f2",
+    "uid" : "35d9270c5b45f808",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213288419,
-      "stop" : 1649213293843,
-      "duration" : 5424
+      "start" : 1649556869755,
+      "stop" : 1649556875378,
+      "duration" : 5623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar Titulos em Tabela: Tesouro Prefixado 2029",
+    "uid" : "c02797827fdb0e0c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556839282,
+      "stop" : 1649556844172,
+      "duration" : 4890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar Titulos em Tabela: Tesouro IPCA+ 2045",
+    "uid" : "931f4746b0af8583",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556851725,
+      "stop" : 1649556856166,
+      "duration" : 4441
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Todos os Titulos: Tesouro Prefixado 2025",
+    "uid" : "c776024c4df4effb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556856220,
+      "stop" : 1649556865990,
+      "duration" : 9770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Descubra o titulo ideal e simule investimento - Estudantes",
+    "uid" : "2171d410cd965ba5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556820443,
+      "stop" : 1649556833667,
+      "duration" : 13224
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Comece a investir: Video 1",
+    "uid" : "af11481b99b6ef81",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556866107,
+      "stop" : 1649556869675,
+      "duration" : 3568
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar Video 3",
+    "uid" : "b9b52d1fe53af7dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649556891591,
+      "stop" : 1649556898831,
+      "duration" : 7240
     },
     "flaky" : false,
     "newFailed" : false,
@@ -121,13 +173,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Validar Video 2",
-    "uid" : "9573f9edfeb48ab7",
+    "uid" : "72550a26e97276c5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213298459,
-      "stop" : 1649213303933,
-      "duration" : 5474
+      "start" : 1649556880871,
+      "stop" : 1649556887516,
+      "duration" : 6645
     },
     "flaky" : false,
     "newFailed" : false,
@@ -137,14 +189,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Veja Todos os Titulos: Validando itens em tabela",
-    "uid" : "9552f191f6844d3d",
+    "name" : "Validar Titulos em Tabela: Tesouro Selic 2027",
+    "uid" : "46957bfac9d1d65c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1649213255316,
-      "stop" : 1649213271743,
-      "duration" : 16427
+      "start" : 1649556844406,
+      "stop" : 1649556851623,
+      "duration" : 7217
     },
     "flaky" : false,
     "newFailed" : false,
@@ -153,6 +205,5 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "timeline"
+  } ]
 }

@@ -1,0 +1,604 @@
+{
+  "uid" : "931f4746b0af8583",
+  "name" : "Validar Titulos em Tabela: Tesouro IPCA+ 2045",
+  "fullName" : "Validar Titulos em Tabela: Tesouro IPCA+ 2045",
+  "historyId" : "23bb325f5ce812a48904112e4e4888a6",
+  "time" : {
+    "start" : 1649556851725,
+    "stop" : 1649556856166,
+    "duration" : 4441
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1649556851727,
+        "stop" : 1649556854743,
+        "duration" : 3016
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "goToPage",
+        "time" : {
+          "start" : 1649556852141,
+          "stop" : 1649556854742,
+          "duration" : 2601
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "viewport 1024, 768",
+          "time" : {
+            "start" : 1649556852142,
+            "stop" : 1649556852145,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "visit /",
+          "time" : {
+            "start" : 1649556852145,
+            "stop" : 1649556854071,
+            "duration" : 1926
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://cdn.cookielaw.org/consent/b9935ac9-b510-4f58-a347-77a5f6d37e19/b9935ac9-b510-4f58-a347-77a5f6d37e19.json",
+          "time" : {
+            "start" : 1649556854069,
+            "stop" : 1649556854069,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET /json/br/com/b3/tesourodireto/service/simulador/valores.json",
+          "time" : {
+            "start" : 1649556854069,
+            "stop" : 1649556854069,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 /json/br/com/b3/tesourodireto/service/titulosdestaque/titulo_destaque.json",
+          "time" : {
+            "start" : 1649556854069,
+            "stop" : 1649556854069,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 /json/br/com/b3/tesourodireto/service/simulador/simulacao.json",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://cdn.cookielaw.org/consent/b9935ac9-b510-4f58-a347-77a5f6d37e19/4a1eabdd-0936-4526-b57b-c17de23b2596/pt.json",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/otFlat.json",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/v2/otPcCenter.json",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/otCommonStyles.css",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=80924907&t=pageview&_s=1&dl=https://www.tesourodireto.com.br/&ul=pt-br&de=UTF-8&dt=Site Oficial do Tesouro Direto&sd=24-bit&sr=1280x720&vp=1007x768&je=0&_u=aEBAAEABQAAAAC~&jid=1003501607&gjid=1337484257&cid=1572703840.1649556854&tid=UA-61960187-2&_gid=753117904.1649556854&_r=1&gtm=2wg3u0NPM92WP&z=84539987",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=80924907&t=pageview&_s=1&dl=https%3A%2F%2Fwww.tesourodireto.com.br%2F&ul=pt-br&de=UTF-8&dt=Site%20Oficial%20do%20Tesouro%20Direto&sd=24-bit&sr=1280x720&vp=1007x768&je=0&_u=aEBAAEABQAAAAC~&jid=1003501607&gjid=1337484257&cid=1572703840.1649556854&tid=UA-61960187-2&_gid=753117904.1649556854&_r=1&gtm=2wg3u0NPM92WP&z=84539987",
+          "time" : {
+            "start" : 1649556854070,
+            "stop" : 1649556854070,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-61960187-2&cid=1572703840.1649556854&jid=1003501607&gjid=1337484257&_gid=753117904.1649556854&_u=aEBAAEAAQAAAAC~&z=4435688",
+          "time" : {
+            "start" : 1649556854071,
+            "stop" : 1649556854071,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "get button[id^=\"onetrust-accept\"]",
+          "time" : {
+            "start" : 1649556854071,
+            "stop" : 1649556854086,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1649556854086,
+            "stop" : 1649556854704,
+            "duration" : 618
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "POST 204 https://f.clarity.ms/collect",
+          "time" : {
+            "start" : 1649556854704,
+            "stop" : 1649556854704,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "get div[id=\"conteudo-principal\"]",
+          "time" : {
+            "start" : 1649556854705,
+            "stop" : 1649556854742,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "assert expected **<div#conteudo-principal.td-banner-carousel>** to be **visible**",
+          "time" : {
+            "start" : 1649556854741,
+            "stop" : 1649556854741,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 18,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 19,
+      "hasContent" : true
+    }, {
+      "name" : "tabelaTitulos (\"Tesouro IPCA+ 2045\")",
+      "time" : {
+        "start" : 1649556854745,
+        "stop" : 1649556856165,
+        "duration" : 1420
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get a[class=\"btn btn--white\"][href=\"/titulos/precos-e-taxas.htm\"]",
+        "time" : {
+          "start" : 1649556854747,
+          "stop" : 1649556854772,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1649556854773,
+          "stop" : 1649556855207,
+          "duration" : 434
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1649556855206,
+          "stop" : 1649556855206,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.tesourodireto.com.br/titulos/precos-e-taxas.htm",
+        "time" : {
+          "start" : 1649556855208,
+          "stop" : 1649556856106,
+          "duration" : 898
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/consent/b9935ac9-b510-4f58-a347-77a5f6d37e19/b9935ac9-b510-4f58-a347-77a5f6d37e19.json",
+        "time" : {
+          "start" : 1649556856105,
+          "stop" : 1649556856105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /json/br/com/b3/tesourodireto/service/api/treasurybondsinfo.json",
+        "time" : {
+          "start" : 1649556856105,
+          "stop" : 1649556856105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /json/br/com/b3/tesourodireto/service/api/treasurybondsimulator.json",
+        "time" : {
+          "start" : 1649556856105,
+          "stop" : 1649556856105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/consent/b9935ac9-b510-4f58-a347-77a5f6d37e19/4a1eabdd-0936-4526-b57b-c17de23b2596/pt.json",
+        "time" : {
+          "start" : 1649556856105,
+          "stop" : 1649556856105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/otFlat.json",
+        "time" : {
+          "start" : 1649556856105,
+          "stop" : 1649556856105,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/v2/otPcCenter.json",
+        "time" : {
+          "start" : 1649556856106,
+          "stop" : 1649556856106,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.27.0/assets/otCommonStyles.css",
+        "time" : {
+          "start" : 1649556856106,
+          "stop" : 1649556856106,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get table[class^=\"td-invest-table\"]",
+        "time" : {
+          "start" : 1649556856106,
+          "stop" : 1649556856106,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <table.td-invest-table.td-invest-table--rows.td-invest-table--rows--resgatar.td-tela-1>, 1 more... ]** to be **visible**",
+        "time" : {
+          "start" : 1649556856106,
+          "stop" : 1649556856106,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get table",
+        "time" : {
+          "start" : 1649556856106,
+          "stop" : 1649556856120,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "contains td, Tesouro IPCA+ 2045",
+        "time" : {
+          "start" : 1649556856120,
+          "stop" : 1649556856165,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<td.td-invest-table__col.td-invest-table__name>** to be **visible**",
+        "time" : {
+          "start" : 1649556856165,
+          "stop" : 1649556856165,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 16,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 37,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testes Site Tesouro Direto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "931f4746b0af8583.json",
+  "parameterValues" : [ ]
+}

@@ -26,4 +26,8 @@ Cypress.Commands.add('aprendaAInvestir',(tituloVideo)=>{
 })
 
 
-
+Cypress.Commands.add('tabelaTitulos', (nameTitulo)=>{
+    cy.get('a[class="btn btn--white"][href="/titulos/precos-e-taxas.htm"]').click({force: true})
+    cy.get('table[class^="td-invest-table"]').should('be.visible')
+    cy.get('table').contains('td', nameTitulo).should('be.visible')
+})

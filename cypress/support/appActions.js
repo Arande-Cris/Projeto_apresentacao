@@ -66,11 +66,6 @@ class authActions {
     titulosEmTabela(){
         cy.get('a[class="btn btn--white"][href="/titulos/precos-e-taxas.htm"]').click({force: true})
         cy.get('table[class^="td-invest-table"]').should('be.visible')
-        cy.get('table').contains('td', 'Tesouro Prefixado 2025').should('be.visible')
-        cy.get('table').contains('td', 'Tesouro Prefixado 2029').should('be.visible')
-        cy.get('table').contains('td', 'Tesouro Selic 2025').should('be.visible')
-        cy.get('table').contains('td', 'Tesouro Selic 2027').should('be.visible')
-        cy.get('table').contains('td', 'Tesouro IPCA+ 2045').should('be.visible')
         cy.get('table').contains('td', 'Tesouro IPCA+ 2022').should('not.exist')
     }
 }
