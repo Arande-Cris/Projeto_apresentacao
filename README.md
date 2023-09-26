@@ -6,19 +6,19 @@
 - https://www.tesourodireto.com.br/
 
 ## Técnicas Utilizadas 
- - Caderno de Teste
+ - Plano de Teste
  - Relatório de Erros
  - Teste de Carga e stress
  - Formato Gherkin para a criação dos cenários
- - Nessa Automatização contém os seguintes principais pontos:
+ - Nessa Automatização contém exeoplos de utilização de:
    - Fixtures
    - Factories
    - AppActions 
    - Checkpoints
    - Custom Commands
-   - logica de programação
-   - Apenas cenários 100% validados
-   - Utilização da biblioteca Faker, para gerar massa de teste 
+   - lógica de programação
+   - Utilização da biblioteca Faker, para gerar massa de teste.
+     
 
 ## Casos de Teste
 - Simule Mais Opções – Home Page + redirecionamento 
